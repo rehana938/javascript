@@ -1,19 +1,23 @@
-// let btn=document.getElementById('btn');
-// btn.addEventListener('click',()=>{
-//     console.log("buttom clicked");
-// } ,{once:true});
-// let cb=documnet.getElementById('cb');
-// let link=documnet.getElementById('link');
-// link.addEventListener('click',(e)=>{
-//     if(!cb.checked){
-//         e.preventDefauilt();
-//     }
+// let timeElement = document.getElementById('time');
+// let date = new Date();
+// let hours = date.getHours();
+// let minutes = date.getMinutes();
+// let seconds = date.getSeconds();
 
-// })
-
-// let parent=document.getElementById('parent')
-// let btn=document.getElementById('btn')
-// parent.addEventListener('click',(e)=>{
-//     //console.log(e.target)
-//     console.log(e.currentTarget)
-// })
+// // Correct string interpolation using backticks
+// timeElement.innerText = `${hours}:${minutes}:${seconds < 10 ? '0' + seconds : seconds}`;
+// let date = new Date();
+// let hours = date.getHours();
+// let minutes = date.getMinutes();
+// let seconds = date.getSeconds();
+// console.log(`${hours}:${minutes}:${seconds < 10 ? '0' + seconds : seconds}`);
+// otp grenarting 
+// let randomElement=document.getElementById('random');
+// let randomNumInRange=Math.floor(Math.random()*(9999-1000+1))+1000;
+// randomElement.innerText=randomNumInRange;
+//min(2,4,6,8,10);
+// let date=Math.min(2,4,6,8,10);
+// console.log(date);
+//max(2,4,6,8,10)
+// let date=Math.max(2,4,6,8,10);
+// console.log(date);
